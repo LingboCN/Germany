@@ -1,0 +1,37 @@
+body,div,ul,li,input,h1,h2,h3,h4,h5,h6,p,th,td{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+    font-style: normal;
+}
+body{
+    line-height: 1.5;
+    font-family: "arial, sim sun, sans-serif";
+    font-size: 12px;
+}
+a, a:hover, a:active, a:focus, a:visited{
+    text-decoration: none;
+}
+
+.float_right{
+    float:right;
+}
+.float_left{
+    float:left;
+}
+.clear_float:after{
+    content:"";
+    display:block;
+    clear:both;
+    visibility: hidden;
+    height:0;
+}
+.clear_float{
+    zoom:1;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
